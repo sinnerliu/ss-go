@@ -2,8 +2,8 @@ FROM golang:1.7.5-alpine3.5
 
 MAINTAINER sinnerliu
 
-RUN apk add --update \
-    bash \
+RUN apk add --update && \
+    apk add bash && \
     mkdir -p /ss
 
 ADD files/shadowsocks-server /ss/shadowsocks-server
