@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM golang:1.7.5-alpine3.5
 
 MAINTAINER sinnerliu
 
