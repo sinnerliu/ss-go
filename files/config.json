@@ -1,0 +1,8 @@
+{
+    "server":"127.0.0.1",
+    "server_port":1024,
+    "local_port":1080,
+    "password":"dacp@123",
+    "method": "rc4-md5",
+    "timeout":600
+}
