@@ -2,7 +2,9 @@ FROM golang:1.7.5-alpine3.5
 
 MAINTAINER sinnerliu
 
-RUN mkdir -p /ss
+RUN apk add --update \
+    bash \
+    mkdir -p /ss
 
 ADD files/shadowsocks-server /ss/shadowsocks-server
 ADD files/config.json /ss/config.json
