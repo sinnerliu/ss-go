@@ -9,7 +9,7 @@ ADD files/config.json /ss/config.json
 ADD files/start.sh /ss/start.sh
 
 RUN chmod u+x /ss/start.sh && \
-	chmod u+x /ss/shadowsocks-server
+    chmod u+x /ss/shadowsocks-server
 	
 	
 EXPOSE 1024
